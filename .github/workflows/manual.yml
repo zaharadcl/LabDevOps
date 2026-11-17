@@ -1,0 +1,14 @@
+name: Teste manual
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  teste:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Mostrar mensagem
+        run: echo "Este workflow foi executado manualmente!"
